@@ -104,13 +104,16 @@
 					<th id="fri"></th>
 				</tr>
 	</div>
-	
+
 	<div id="navbar">
 		<input type="radio" name="search_type" value="s_Code">강좌코드
 		<input type="radio" name="search_type" value="s_PName">교수명
 		<input type="radio" name="search_type" value="s_Name">강좌이름
 		<br/>
-		<input type="text" name="s_name" row="40">
+		<form action="" method="POST">
+			<input type="text" name="s_name">
+			<input id="btn2" type="submit" value="search">
+		</form>
 	</div>
 </div>
 </body>

@@ -9,13 +9,11 @@
 </head>
 <body>
 <div id="wrap">
-	<div id="loginData">
-		<form action="login.jsp" id="LogIn" method="POST">
-			<p>ID:<input type="text" row="10" name="ID"></p>
-			<p>PWD:<input type="text" row="10" name="PWD"></p>
-			<input id="btn" type="submit" value="LogIn" width="80" height="100">
-		</form>
-	</div>
+	<form action="login.jsp" id="LogIn" method="POST">
+		<p>ID:<input type="text" row="10" name="ID"></p>
+		<p>PWD:<input type="text" row="10" name="PWD"></p>
+		<input id="btn" type="submit" value="LogIn" width="80" height="100">
+	</form>
 </div>
 </body>
 </html>

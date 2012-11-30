@@ -10,8 +10,8 @@
 <body>
 <div id="wrap">
 	<form action="login.jsp" id="LogIn" method="POST">
-		<p>ID:<input type="text" row="10" name="ID"></p>
-		<p>PWD:<input type="text" row="10" name="PWD"></p>
+		<p>ID	&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" row="10" name="ID"></p>
+		<p>PWD&nbsp;:&nbsp;&nbsp;&nbsp;<input type="text" row="10" name="PWD"></p>
 		<input id="btn" type="submit" value="LogIn" width="80" height="100">
 	</form>
 </div>
